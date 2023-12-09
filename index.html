@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <form class="city-search">
+            <label for="search" class="form-label">Change Cities:</label>
+            <!-- <input type="search" placeholder="Type to Search..." id="search" class="form-control">
+            <input type="submit" value="Search">  -->
+
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Type to Search..." id="search">
+                <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Submit</button>
+            </div>
+        </form>
+        <hr />
+        <p class="date-time">Friday 3:00 PM </p>
+
+        <div class="row">
+            <div class="col-6">
+                <h1>Weather for <div class="selected-city"> Boston, MA</div>
+                </h1>
+                <div class="row current-hl">
+                    <div class="col"></div>
+                    <div class="col">
+                        <p class="current-high">High</p>
+                        <p class="current-high">53&deg</p>
+                    </div>
+                    <div class="col">
+                        <p class="current-low">Low</p>
+                        <p class="current-low">37&deg</p>
+                    </div>
+
+                    <div class="col"></div>
+                </div>
+                <div class="extras">
+                    <p>precipitation: 0%</p>
+                    <p>humidity: 38%</p>
+                    <p>wind: 17 mph</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <img src="" alt="">
+                <i class="fa-solid fa-cloud-sun current-icon"></i>
+                <h2>
+                    <span class="current"> 46&deg;F </span> <button class="alt-temp"> &degC</button>
+                </h2>
+
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col card">
+                <div class="card-header">
+                    Monday
+                </div>
+                <i class="fa-solid fa-sun"></i>
+                <p>High | Low </p>
+                <p> 55 | 47 </p>
+            </div>
+            <div class="col card">
+                <div class="card-header">
+                    Tuesday
+                </div>
+                <i class="fa-solid fa-cloud-bolt"></i>
+                <p>High | Low
+                </p>
+                <p> 59 | 46 </p>
+            </div>
+            <div class="col card">
+                <div class="card-header">
+                    Wednesday
+                </div>
+                <i class="fa-solid fa-cloud-sun-rain"></i>
+                <p>High | Low
+                </p>
+                <p> 58 | 41 </p>
+            </div>
+            <div class="col card">
+                <div class="card-header">
+                    Thursday
+                </div>
+                <i class="fa-solid fa-cloud-showers-heavy"></i>
+                <p>High | Low
+                </p>
+                <p> 51 | 47 </p>
+            </div>
+            <div class="col card">
+                <div class="card-header">
+                    Friday
+                </div>
+                <i class="fa-solid fa-cloud"></i>
+                <p>High | Low
+                </p>
+                <p> 63 | 40 </p>
+            </div>
+        </div>
+
+    </div>
+    <script src="src/index.js"></script>
+    <script src="https://kit.fontawesome.com/988c5ae4f6.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

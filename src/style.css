@@ -1,0 +1,74 @@
+body {
+  margin: 25px 100px;
+}
+
+i {
+  font-size: 50px;
+  text-align: center;
+  padding: 15px 0;
+}
+div.col-6,
+div.col {
+  text-align: center;
+}
+.container {
+  padding: 20px 100px;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  background: #212529;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+h2 .current {
+  font-size: 40px;
+  color: white;
+}
+
+.alt-temp {
+  color: gray;
+  border: none;
+  display: inline;
+  border-radius: 5px;
+  margin: 10px 0 0 15px;
+  position: relative;
+  bottom: 4px;
+}
+
+.current-icon {
+  font-size: 140px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.selected-city {
+  margin: 15px 0;
+  font-size: larger;
+}
+
+.current-hl {
+  margin: 10px 20px;
+  padding: 10px;
+  font-size: 20px;
+  /* background: rgb(183, 183, 183); */
+  border-radius: 10px;
+}
+
+.date-time {
+  text-align: center;
+  font-size: 20px;
+}
+
+.extras {
+  display: block;
+  margin: 0 auto;
+}
